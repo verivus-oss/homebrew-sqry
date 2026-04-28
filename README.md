@@ -25,6 +25,17 @@ brew uninstall sqry
 brew untap verivus-oss/sqry
 ```
 
+## Included binaries
+
+The formula installs:
+
+- `sqry` — CLI
+- `sqry-mcp` — MCP server for AI assistants
+- `sqry-lsp` — language server
+- `sqryd` — daemon for warm, shared graph sessions
+
+## More info
+
 ## What gets installed
 
 The formula installs four binaries into your Homebrew prefix:
