@@ -1,7 +1,7 @@
 class Sqry < Formula
   desc "Semantic code search tool"
   homepage "https://sqry.dev"
-  version "18.0.11"
+  version "19.0.4"
   license "MIT"
 
   head "https://github.com/verivus-oss/sqry.git", branch: "master"
@@ -9,39 +9,39 @@ class Sqry < Formula
   on_macos do
     on_arm do
       resource "sqry" do
-        url "https://github.com/verivus-oss/sqry/releases/download/v18.0.11/sqry-macos-arm64"
-        sha256 "e57ba317c59eaf96acea1bb356065f263e7b59350b221924b742c7c4c07cca4e"
+        url "https://github.com/verivus-oss/sqry/releases/download/v19.0.4/sqry-macos-arm64"
+        sha256 "4858f454a2a6b9fafabd59ebc9d830b38508bdc5f5da29fd90ec70f4d0392e7e"
       end
       resource "sqry-mcp" do
-        url "https://github.com/verivus-oss/sqry/releases/download/v18.0.11/sqry-mcp-macos-arm64"
-        sha256 "17473e3eaef5cf60cc22af3a7e1f7bc6926e6b49c49978c603361a528fdf21f8"
+        url "https://github.com/verivus-oss/sqry/releases/download/v19.0.4/sqry-mcp-macos-arm64"
+        sha256 "843f1fdc76a6fa61629906f98087715cc73a02b8a298907710d1d31c1240237b"
       end
       resource "sqry-lsp" do
-        url "https://github.com/verivus-oss/sqry/releases/download/v18.0.11/sqry-lsp-macos-arm64"
-        sha256 "804b5d6e0ee05cd0a47b50557da070fb06555a4c14ec98a948d4de76d09591e0"
+        url "https://github.com/verivus-oss/sqry/releases/download/v19.0.4/sqry-lsp-macos-arm64"
+        sha256 "598e93b21d076370342cfc0452eca7f9258695ea7d27507919e1594fd0391a12"
       end
       resource "sqryd" do
-        url "https://github.com/verivus-oss/sqry/releases/download/v18.0.11/sqryd-macos-arm64"
-        sha256 "c14282963e617abdab2b71ce1a1c5e9c479e10f03318d67b3390261ee4b0aee5"
+        url "https://github.com/verivus-oss/sqry/releases/download/v19.0.4/sqryd-macos-arm64"
+        sha256 "27a3086d5e8d3f5916806b4424164597652ff81dea67e966f4aedc0c5a15c7f7"
       end
     end
 
     on_intel do
       resource "sqry" do
-        url "https://github.com/verivus-oss/sqry/releases/download/v18.0.11/sqry-macos-x86_64"
-        sha256 "7c736a24bb0a682058b8217351aa660abbfd4d81a55d34064f059fbc034bd2a5"
+        url "https://github.com/verivus-oss/sqry/releases/download/v19.0.4/sqry-macos-x86_64"
+        sha256 "9b59422a48a34148d5a40b9273ba81344dd209abaa312904b74a169d41534d76"
       end
       resource "sqry-mcp" do
-        url "https://github.com/verivus-oss/sqry/releases/download/v18.0.11/sqry-mcp-macos-x86_64"
-        sha256 "bb63cf032b224fb478e3b62add13e9494f4509b7f8c0fec2607a4b0253c75f71"
+        url "https://github.com/verivus-oss/sqry/releases/download/v19.0.4/sqry-mcp-macos-x86_64"
+        sha256 "86b6d6856ff2658d65490ae1c70ca2818667a2bffbb97820c967b5ebcad35ad4"
       end
       resource "sqry-lsp" do
-        url "https://github.com/verivus-oss/sqry/releases/download/v18.0.11/sqry-lsp-macos-x86_64"
-        sha256 "82350b686dfc4198c05729175c5119669eba3f25e9723ad42fb8d57312044b4f"
+        url "https://github.com/verivus-oss/sqry/releases/download/v19.0.4/sqry-lsp-macos-x86_64"
+        sha256 "a615a7f82cbf2a049dd86b8572d6541294a38fa72a4885ce627aadf4944c1358"
       end
       resource "sqryd" do
-        url "https://github.com/verivus-oss/sqry/releases/download/v18.0.11/sqryd-macos-x86_64"
-        sha256 "0713ef4b579c7769fdbdab04bc8e9e5bd60337e229b348b971e0130bdb55fbe5"
+        url "https://github.com/verivus-oss/sqry/releases/download/v19.0.4/sqryd-macos-x86_64"
+        sha256 "7f39ee287056d3930c6e1485ae4429476cf46787a2dc40802e68683342459dea"
       end
     end
   end
@@ -49,39 +49,39 @@ class Sqry < Formula
   on_linux do
     on_intel do
       resource "sqry" do
-        url "https://github.com/verivus-oss/sqry/releases/download/v18.0.11/sqry-linux-x86_64"
-        sha256 "f8abdd82f257099d055c3f09f1fe0358d8629d37e5801a6916862a663ba3ae82"
+        url "https://github.com/verivus-oss/sqry/releases/download/v19.0.4/sqry-linux-x86_64"
+        sha256 "92c9f91df5806d4fdaba3aea9ee7a29c92fca995a7f96fb5f552c856836b5fc4"
       end
       resource "sqry-mcp" do
-        url "https://github.com/verivus-oss/sqry/releases/download/v18.0.11/sqry-mcp-linux-x86_64"
-        sha256 "3f47dfbc13125cf6359356ca7f9000faf2078847219f491139cf41de0cdff559"
+        url "https://github.com/verivus-oss/sqry/releases/download/v19.0.4/sqry-mcp-linux-x86_64"
+        sha256 "05f6e738cd33c9bc8cfbe8f30e10e5e78154719a12ad3022510f56989b74042d"
       end
       resource "sqry-lsp" do
-        url "https://github.com/verivus-oss/sqry/releases/download/v18.0.11/sqry-lsp-linux-x86_64"
-        sha256 "c2a2b2904688257aa92e6ad57c6fe86b203ef989eafdc0e0a025c16a38435492"
+        url "https://github.com/verivus-oss/sqry/releases/download/v19.0.4/sqry-lsp-linux-x86_64"
+        sha256 "93036bd317710304b287d129660f3427f3c0b8688a5747e0fa43302a8ce29bdb"
       end
       resource "sqryd" do
-        url "https://github.com/verivus-oss/sqry/releases/download/v18.0.11/sqryd-linux-x86_64"
-        sha256 "0d4b568ad2b78406248350689821c28a6f256205e56388926ec0ac4ab9efe531"
+        url "https://github.com/verivus-oss/sqry/releases/download/v19.0.4/sqryd-linux-x86_64"
+        sha256 "d6bc8e0f9e86b8d44c03e0a8c564edc50a874e8cc63b76cfaac375a4bd1a2149"
       end
     end
 
     on_arm do
       resource "sqry" do
-        url "https://github.com/verivus-oss/sqry/releases/download/v18.0.11/sqry-linux-arm64"
-        sha256 "3980b393721bb1c5dcff6233fa7a06ce77bb03cdf151676fb5ea15cd6ac8a73c"
+        url "https://github.com/verivus-oss/sqry/releases/download/v19.0.4/sqry-linux-arm64"
+        sha256 "847b243dd44e7e9b97ee4691fc08073af4e02dcc0f2390aae61e4050e1dc721b"
       end
       resource "sqry-mcp" do
-        url "https://github.com/verivus-oss/sqry/releases/download/v18.0.11/sqry-mcp-linux-arm64"
-        sha256 "fa3e0eba75be6b91775541538bf7cf62e0e71a5e4ec2aeae397b1735927d3087"
+        url "https://github.com/verivus-oss/sqry/releases/download/v19.0.4/sqry-mcp-linux-arm64"
+        sha256 "4de3dc2294a22cbdadece4240c90c539b82d7602453ed4908b262f78702ce822"
       end
       resource "sqry-lsp" do
-        url "https://github.com/verivus-oss/sqry/releases/download/v18.0.11/sqry-lsp-linux-arm64"
-        sha256 "2b3fb81e060e131c24adc822ef886d42d8984258c94a229a1c3ef08654b6f6e1"
+        url "https://github.com/verivus-oss/sqry/releases/download/v19.0.4/sqry-lsp-linux-arm64"
+        sha256 "b5f5e884ca89e69b1f4478f9d035d0130dcc2443971412fff58d2bbbaa72db6e"
       end
       resource "sqryd" do
-        url "https://github.com/verivus-oss/sqry/releases/download/v18.0.11/sqryd-linux-arm64"
-        sha256 "f9ee21024f3ac36eb78292387309bf4632a6bb71cbaca53e91a4e83d16eecaa2"
+        url "https://github.com/verivus-oss/sqry/releases/download/v19.0.4/sqryd-linux-arm64"
+        sha256 "f36fddf76ae2eb16f5c751291a33dca29202973fb173ce39d85104b3de027e9a"
       end
     end
   end
